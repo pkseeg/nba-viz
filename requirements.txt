@@ -1,0 +1,6 @@
+pandas
+basketball_reference_scraper
+unidecode
+matplotlib
+tqdm
+ipywidgets
