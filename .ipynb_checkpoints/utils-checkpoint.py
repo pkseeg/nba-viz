@@ -18,6 +18,7 @@ def set_size(w,h, ax=None):
 
 name_swap = {
     'BRK': 'Brooklyn Nets',
+    'BKN': 'Brooklyn Nets',
     'WAS': 'Washington Wizards',
     'CHI': 'Chicago Bulls',
     'MIA': 'Miami Heat',
@@ -34,6 +35,7 @@ name_swap = {
     'ORL': 'Orlando Magic',
     'GSW': 'Golden State Warriors',
     'PHO': 'Phoenix Suns',
+    'PHX': 'Phoenix Suns',
     'UTA': 'Utah Jazz',
     'DAL': 'Dallas Mavericks',
     'DEN': 'Denver Nuggets',
@@ -49,7 +51,7 @@ name_swap = {
     'HOU': 'Houston Rockets',
     'SEA': 'Seattle SuperSonics',
     'NOH': 'New Orleans Hornets',
-    'CHA': 'Charlotte Bobcats',
+    'CHA': 'Charlotte Hornets',
     'NJN': 'New Jersey Nets'
 }
 temp = {}
