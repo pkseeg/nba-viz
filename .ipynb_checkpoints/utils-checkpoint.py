@@ -16,6 +16,19 @@ def set_size(w,h, ax=None):
     figh = float(h)/(t-b)
     ax.figure.set_size_inches(figw, figh)
 
+team_colors = {
+    'ATL': '#E03A3E', 'BOS': '#007A33', 'BKN': '#000000',
+    'CHA': '#1D1160', 'CHI': '#CE1141', 'CLE': '#860038',
+    'DAL': '#00538C', 'DEN': '#0E2240', 'DET': '#C8102E',
+    'GSW': '#FFC72C', 'HOU': '#CE1141', 'IND': '#002D62',
+    'LAC': '#C8102E', 'LAL': '#552583', 'MEM': '#5D76A9',
+    'MIA': '#98002E', 'MIL': '#00471B', 'MIN': '#0C2340',
+    'NOP': '#0C2340', 'NYK': '#006BB6', 'OKC': '#007AC1',
+    'ORL': '#0077C0', 'PHI': '#006BB6', 'PHX': '#1D1160',
+    'POR': '#E03A3E', 'SAC': '#5A2D81', 'SAS': '#C4CED4',
+    'TOR': '#CE1141', 'UTA': '#000000', 'WAS': '#002B5C'
+}    
+
 name_swap = {
     'BRK': 'Brooklyn Nets',
     'BKN': 'Brooklyn Nets',
@@ -61,3 +74,25 @@ for n in temp:
     name_swap[n] = temp[n]
 
 all_team_ids = [k for k in name_swap]
+
+ID_TO_TEAM_NBA = {'1610612761': 'TOR', '1610612743': 'DEN',
+                  '1610612765': 'DET', '1610612740': 'NOP',
+                  '1610612749': 'MIL', '1610612744': 'GSW',
+                  '1610612759': 'SAS', '1610612757': 'POR',
+                  '1610612746': 'LAC', '1610612742': 'DAL',
+                  '1610612763': 'MEM', '1610612755': 'PHI',
+                  '1610612738': 'BOS', '1610612750': 'MIN',
+                  '1610612766': 'CHA', '1610612754': 'IND',
+                  '1610612753': 'ORL', '1610612748': 'MIA',
+                  '1610612745': 'HOU', '1610612758': 'SAC',
+                  '1610612762': 'UTA', '1610612751': 'BKN',
+                  '1610612737': 'ATL', '1610612756': 'PHX',
+                  '1610612764': 'WAS', '1610612752': 'NYK',
+                  '1610612760': 'OKC', '1610612747': 'LAL',
+                  '1610612739': 'CLE', '1610612741': 'CHI'}
+
+team_ids = {}
+for i in ID_TO_TEAM_NBA:
+    team_ids[ID_TO_TEAM_NBA[i]] = i
+
+
