@@ -96,3 +96,16 @@ for i in ID_TO_TEAM_NBA:
     team_ids[ID_TO_TEAM_NBA[i]] = i
 
 
+
+team_accounts = {
+    'ATL': '@ATLHawks', 'BOS': '@celtics', 'BKN': '@BrooklynNets',
+    'CHA': '@hornets', 'CHI': '@chicagobulls', 'CLE': '@cavs',
+    'DAL': '@dallasmavs', 'DEN': '@nuggets', 'DET': '@DetroitPistons',
+    'GSW': '@warriors', 'HOU': '@HoustonRockets', 'IND': '@Pacers',
+    'LAC': '@LAClippers', 'LAL': '@Lakers', 'MEM': '@memgrizz',
+    'MIA': '@MiamiHEAT', 'MIL': '@Bucks', 'MIN': '@Timberwolves',
+    'NOP': '@PelicansNBA', 'NYK': '@nyknicks', 'OKC': '@okcthunder',
+    'ORL': '@OrlandoMagic', 'PHI': '@sixers', 'PHX': '@Suns',
+    'POR': '@trailblazers', 'SAC': '@SacramentoKings', 'SAS': '@spurs',
+    'TOR': '@Raptors', 'UTA': '@utahjazz', 'WAS': '@WashWizards'
+}  
